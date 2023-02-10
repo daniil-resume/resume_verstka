@@ -1,1 +1,75 @@
+body {
+    font-family: cursive;
+    background-color: rgb(255, 255, 79);
+}
+a{
+    text-decoration:none ;
+    white-space: nowrap;
+}
+nav{
+    display: flex;
+   padding: 15px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+nav a{
+    margin: 15px;
+    border: 2px solid blue;
+    color: yellow;
+    border-radius: 10px;
+    background-color: blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header{
+    background-color:rgb(169, 78, 255);
+}
+.picter{
+   display: flex; 
+   width: 550px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+.social{
+    width:55px;
+    height:55px;
+}
+footer{
+     text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ul{
+    border:10px double plum;
+    padding: 25px;
 
+}
+h1 {
+text-align: center;
+white-space: nowrap;
+font-size: 30px
+}
+header{
+    text-align: center;
+}
+nav a:hover{
+color: rgb(255, 0, 0);
+box-shadow: 5px 5px 5px 0 black;
+transition: 5s box-shadow ease-in;
+}
+.link-header{
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    padding-top:-15px;
+}
+
+.cats{
+    border:10px double green;
+    width: 520px;
+}
+div{
+    text-align: center;
+}
